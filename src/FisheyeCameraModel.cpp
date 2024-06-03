@@ -153,7 +153,7 @@ void FisheyeCameraModel::save_data() const
     fs.release();
 }
 
-map<string, Size> init_constants()
+map<string, Size> FisheyeCameraModel::init_constants()
 {
     // --------------------------------------------------------------------
     // (shift_width, shift_height): how far away the birdview looks outside
