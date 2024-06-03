@@ -1,4 +1,4 @@
 #!/bin/bash
 cd ./build
-uvc-undistort
+./uvc-undistort
 cd ..
