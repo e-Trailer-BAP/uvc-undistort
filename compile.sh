@@ -1,4 +1,4 @@
 #!/bin/bash
-./configure.bat
-./build.bat
-./run.bat
+./configure.sh
+./build.sh
+./run.sh
