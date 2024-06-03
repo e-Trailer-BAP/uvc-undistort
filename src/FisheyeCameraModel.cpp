@@ -9,10 +9,10 @@ using namespace cv;
 
 FisheyeCameraModel::FisheyeCameraModel(const string &camera_param_file, const string &camera_name)
 {
-    if (!filesystem::exists(camera_param_file))
-    {
-        throw runtime_error("Cannot find camera param file");
-    }
+    // if (!filesystem::exists(camera_param_file))
+    // {
+    //     throw runtime_error("Cannot find camera param file");
+    // }
 
     this->camera_file = camera_param_file;
     this->camera_name = camera_name;
