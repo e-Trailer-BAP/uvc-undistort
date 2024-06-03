@@ -54,6 +54,7 @@ int main(int argc, char **argv)
     // Configure fisheye camera model
     FisheyeCameraModel camera_model("camera_params.yaml", "camera");
 
+    Mat frame(frame_height, frame_width, CV_8UC2);
     while (true)
     {
         cap >> frame; // Capture a frame
