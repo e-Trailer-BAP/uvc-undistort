@@ -5,6 +5,7 @@
 #include <linux/videodev2.h>
 #include <sys/ioctl.h>
 #include <string.h>
+#include "FisheyeCameraModel.hpp"
 
 using namespace cv;
 
